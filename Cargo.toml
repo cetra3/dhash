@@ -1,0 +1,15 @@
+[package]
+name = "dhash"
+version = "0.1.0"
+authors = ["cetra3 <cetra3@hotmail.com>"]
+edition = "2018"
+license = "MIT/Apache-2.0"
+description = "An implementation of `dhash` image signatures for rust"
+repository = "https://github.com/cetra3/dhash"
+readme = "README.md"
+
+[dependencies]
+image = "0.21.0"
+log = "0.4.1"
+pretty_env_logger = "0.2.5"
+structopt = "0.2"
